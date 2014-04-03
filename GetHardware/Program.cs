@@ -13,6 +13,7 @@ namespace GetHardware
 
             string sEcho = string.Format("HDD Serial is {0}, MAC Address is {1}", hs.HDDSerial, hs.MACAddress);
             Console.WriteLine(sEcho);
+            Console.WriteLine("Thanks!");
 
             Console.ReadLine();
         }
